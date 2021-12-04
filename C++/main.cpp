@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
+void PrintName(string first, string last);
 int main()
 {
-  string hello = "Hello";
-  int values[] = {1, 2, 3, 4, 5, 0};
-  for (int i = 0; auto c = values[i]; i++)
-  {
-    cout << c << endl;
-  }
+  PrintName("Thomas", "Jefferson");
   return 0;
+}
+void PrintName(string first, string last)
+{
+  string fullname = first + " " + last;
+  cout << fullname << endl;
 }
