@@ -3,7 +3,7 @@ using namespace std;
 void PrintName(string first, string last);
 int main()
 {
-  PrintName("Thomas", "Jefferson");
+  PrintName("Indian", "Wizard");
   return 0;
 }
 void PrintName(string first, string last)
