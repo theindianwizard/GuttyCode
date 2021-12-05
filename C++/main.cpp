@@ -1,18 +1,14 @@
 #include <iostream>
 using namespace std;
+#include "function.cpp"
 
+void BigDog(int KibblesCount);
 
-int main(int argc, char *argv[])
-{
-  int x;
-  cin >> x;
-  string words = "Something interesting and bizarre";
-  cout << words << endl;
-  words.insert(10, "seriously ");
-  cout << words << endl;
-  words.erase(19,16);
-  cout << words << endl;
-  words.replace(4, 5, "body");
-  cout << words << endl;
+int main() {
+  BigDog(3);
   return 0;
+  for (std::vector<>::iterator i = .begin(); i != .end(); ++i)
+  {
+    
+  }
 }
